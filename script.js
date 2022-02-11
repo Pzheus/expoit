@@ -517,8 +517,9 @@ setTimeout(() => {
 
     $('.laoder').hide()
     $('.content').show()
+    $('#logotipo img').show()
     
-},900);
+},800);
     
     
 
