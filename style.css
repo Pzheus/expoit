@@ -154,8 +154,7 @@ body {
 #cabecalho #logotipo img {
     min-height: 250px;
     max-width: 250px;
-    opacity: 0;
-    animation: animacaotexto 1s 0.3s forwards;
+    display: none;
 }
 
 #cabecalho #video {
