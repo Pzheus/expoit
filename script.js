@@ -519,7 +519,7 @@ setTimeout(() => {
     $('.content').show()
     $('#logotipo img').show()
     
-},800);
+},500);
     
     
 
