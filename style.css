@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @media (max-width: 1450px) {
-    #logotipo-cabecalho {
-        visibility: hidden;
+    #logotipo{
+        display: none;
     }
+    
     #creditos {
         visibility: hidden;
     }
@@ -167,12 +168,6 @@ body {
     width: auto;
     height: auto;
     z-index: -1000;
-}
-
-@media (max-width: 1400px) {
-    #logotipo img {
-        display: none;
-    }
 }
 
 .container {
